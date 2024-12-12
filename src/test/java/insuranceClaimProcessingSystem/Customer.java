@@ -1,4 +1,9 @@
 package insuranceClaimProcessingSystem;
 
-public class Insurance {
+public class Customer {
+    int customerID;
+    String name;
+    String claimHistory;
+    String[] policyList;
+
 }

@@ -1,3 +1,5 @@
+package weekend1130;
+
 import java.util.*;
 
 public class ArrayExample {
@@ -20,6 +22,7 @@ public class ArrayExample {
 
     }
     //enter the array value through input--java method
+    //
     public static void arraysInput(String fname, int age) {
         //Scanner input = new Scanner(System.in);
         //System.out.println("I am going to enter the Array element");
