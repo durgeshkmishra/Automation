@@ -3,9 +3,9 @@ import java.util.Scanner;
 
 public class Calculator {
     public static void main(String[] args) {
-        int num1;
-        int num2;
-        int result = 0;
+        double num1;
+        double num2;
+        double result = 0;
         char caLc;
         Scanner input = new Scanner(System.in);
 
