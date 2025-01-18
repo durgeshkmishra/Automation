@@ -22,9 +22,22 @@
 
     <properties>
         <lombok-version>1.18.36</lombok-version>
+        <selenium-version>4.27.0</selenium-version>
+        <webdrivermanager-version>5.9.2</webdrivermanager-version>
+        <testng-version>7.10.2</testng-version>
     </properties>
 
     <dependencies>
+
+        <!-- https://mvnrepository.com/artifact/org.testng/testng -->
+        <dependency>
+            <groupId>org.testng</groupId>
+            <artifactId>testng</artifactId>
+            <version>${testng-version}</version>
+            <scope>test</scope>
+        </dependency>
+
+
         <!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
         <dependency>
             <groupId>org.projectlombok</groupId>
@@ -33,6 +46,20 @@
             <scope>provided</scope>
         </dependency>
 
+        <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-java</artifactId>
+            <version>${selenium-version}</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->
+        <dependency>
+            <groupId>io.github.bonigarcia</groupId>
+            <artifactId>webdrivermanager</artifactId>
+            <version>${webdrivermanager-version}</version>
+        </dependency>
     </dependencies>
+
 
 </project>
