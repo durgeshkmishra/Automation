@@ -4,7 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c56877c-f338-4f4b-ad64-3b5eab7f3a1e" name="Changes" comment="commit" />
+    <list default="true" id="1c56877c-f338-4f4b-ad64-3b5eab7f3a1e" name="Changes" comment="commit">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_1_17_2025_9_00_PM_[Changes]/shelved.patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_1_17_2025_9_00_PM_[Changes]1/shelved.patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_1_17_2025_9_00_PM__Changes_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_1_17_2025_9_00_PM__Changes_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/accessModifer/accessModifer.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testNgFundamentals/SampleTestCaseFiles.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -112,6 +126,8 @@
     "Application.WindowSwitchingAndHandlingUsingFunction.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.SampleTestCaseFiles.sampleTest.executor": "Run",
     "git-widget-placeholder": "testngFundamentals",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/harsh/IdeaProjects/FirstDemo",
@@ -128,59 +144,7 @@
       <recent name="builderPatternOfaSite" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.QuestionOne">
-    <configuration name="LocatorConcept" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="jan082025.LocatorConcept" />
-      <module name="AutomationClass" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="jan082025.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="QuestionOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="seleniumPractiseSet.QuestionOne" />
-      <module name="AutomationClass" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="seleniumPractiseSet.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WebdriverLogic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="jan082025.WebdriverLogic" />
-      <module name="AutomationClass" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="jan082025.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WindowSwitchingAndHandling" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="jan082025.WindowSwitchingAndHandling" />
-      <module name="AutomationClass" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="jan082025.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.SampleTestCaseFiles">
     <configuration name="WindowSwitchingAndHandlingUsingFunction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="jan082025.WindowSwitchingAndHandlingUsingFunction" />
       <module name="AutomationClass" />
@@ -194,13 +158,84 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SampleTestCaseFiles" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AutomationClass" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testNgFundamentals.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testNgFundamentals" />
+      <option name="MAIN_CLASS_NAME" value="testNgFundamentals.SampleTestCaseFiles" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SampleTestCaseFiles.sampleTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AutomationClass" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testNgFundamentals.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testNgFundamentals" />
+      <option name="MAIN_CLASS_NAME" value="testNgFundamentals.SampleTestCaseFiles" />
+      <option name="METHOD_NAME" value="sampleTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SampleTestCaseFiles.sampleTestOne" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AutomationClass" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testNgFundamentals.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testNgFundamentals" />
+      <option name="MAIN_CLASS_NAME" value="testNgFundamentals.SampleTestCaseFiles" />
+      <option name="METHOD_NAME" value="sampleTestOne" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SampleTestCaseFiles.sampleTestTwo" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AutomationClass" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testNgFundamentals.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testNgFundamentals" />
+      <option name="MAIN_CLASS_NAME" value="testNgFundamentals.SampleTestCaseFiles" />
+      <option name="METHOD_NAME" value="sampleTestTwo" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.SampleTestCaseFiles" />
+        <item itemvalue="TestNG.SampleTestCaseFiles.sampleTestTwo" />
+        <item itemvalue="TestNG.SampleTestCaseFiles.sampleTestOne" />
+        <item itemvalue="TestNG.SampleTestCaseFiles.sampleTest" />
         <item itemvalue="Application.WindowSwitchingAndHandlingUsingFunction" />
-        <item itemvalue="Application.WindowSwitchingAndHandling" />
-        <item itemvalue="Application.WebdriverLogic" />
-        <item itemvalue="Application.QuestionOne" />
-        <item itemvalue="Application.LocatorConcept" />
       </list>
     </recent_temporary>
   </component>
