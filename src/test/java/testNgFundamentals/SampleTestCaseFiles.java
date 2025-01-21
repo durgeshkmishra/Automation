@@ -37,15 +37,23 @@ public class SampleTestCaseFiles {
     {
         System.out.println("Sample Test Case Executed");
     }
-    @Test()
+    @Test(priority = 3,enabled = false)
     public void sampleTestOne()
     {
         System.out.println("Sample test case one");
 
     }
-    @Test()
+    @Test(priority = 2)
     public void sampleTestTwo()
     {
+        System.out.println("Sample test two");
+    }
+    @Test(priority = 1, invocationCount = 3)
+            public void sampleTedtThree()
+    {
         System.out.println("Sample test three");
+    }
+    {
+
     }
 }
